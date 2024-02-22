@@ -233,3 +233,124 @@
 //	printf("%d\n", a + b);
 //	return 0;
 //}
+
+
+
+
+//四、基本运算符
+//BC21 -- 牛牛学加法
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	scanf("%d%d", &a, &b);
+//	printf("%d\n", a + b);
+//	return 0;
+//}
+
+
+//BC22 -- 牛牛学除法
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	scanf("%d%d", &a, &b);
+//	printf("%d\n", a / b);
+//	return 0;
+//}
+
+
+//BC23 -- 牛牛学取余
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	scanf("%d%d", &a, &b);
+//	printf("%d\n", a % b);
+//	return 0;
+//}
+
+
+//BC24 -- 浮点数的个位数字
+//int main()
+//{
+//	double d = 0.0;
+//	scanf("%lf", &d);
+//	printf("%d\n", (int)d % 10);
+//	return 0;
+//}
+
+
+
+
+//五、运算
+//BC25 -- 牛牛买电影票
+//int main()
+//{
+//	int price = 100;
+//	int x = 0;
+//	scanf("%d", &x);
+//	printf("%d\n", x * price);
+//	return 0;
+//}
+
+
+//BC26 -- 计算带余数除法
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	scanf("%d%d", &a, &b);
+//	printf("%d %d\n", a / b, a % b);
+//	return 0;
+//}
+
+
+//BC27 -- 整数的个位
+//int main()
+//{
+//	int a = 0;
+//	scanf("%d", &a);
+//	printf("%d\n", a % 10);
+//	return 0;
+//}
+
+
+//BC28 -- 整数的十位
+//int main()
+//{
+//	int a = 0;
+//	scanf("%d", &a);
+//	printf("%d\n", a / 10 % 10);
+//	return 0;
+//}
+
+
+//BC29 -- 开学？
+//int main()
+//{
+//	int x = 0;
+//	int n = 0;
+//	scanf("%d%d", &x, &n);
+//	x = x + n;
+//	while (x > 7)
+//	{
+//		x = x - 7;
+//	}
+//	printf("%d\n", x);
+//	return 0;
+//}
+
+
+//BC30 -- 时间转换
+//int main()
+//{
+//	int second = 0;
+//	scanf("%d", &second);
+//	int h = second / 3600;
+//	int m = second % 3600 / 60;
+//	int s = second % 60;
+//	printf("%d %d %d\n", h, m, s);
+//	
+//	return 0;
+//}
