@@ -354,3 +354,24 @@
 //	
 //	return 0;
 //}
+
+
+//BC31 -- 2的n此方计算
+//int main()
+//{
+//	int n = 0;
+//	scanf("%d", &n);
+//	printf("%d\n", 2 << n - 1);
+//	return 0;
+//}
+
+
+//BC32 -- 你能活多少秒
+//int main()
+//{
+//	int age = 0;
+//	scanf("%d", &age);
+//	long long ret = age * 3.156e7;
+//	printf("%lld\n", ret);
+//	return 0;
+//}
