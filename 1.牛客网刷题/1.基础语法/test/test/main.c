@@ -375,3 +375,31 @@
 //	printf("%lld\n", ret);
 //	return 0;
 //}
+
+
+//BC 33 -- Í³¼Æ³É¼¨
+//int main()
+//{
+//    int n = 0;
+//    scanf("%d", &n);
+//    float arr[100] = { 0 };
+//    float max = 0.0;
+//    float min = 100.0;
+//    float sum = 0.0;
+//    int i = 0;
+//    for (i = 0; i < n; i++)
+//    {
+//        scanf("%f", &arr[i]);
+//        sum += arr[i];
+//        if (arr[i] > max)
+//        {
+//            max = arr[i];
+//        }
+//        if (arr[i] < min)
+//        {
+//            min = arr[i];
+//        }
+//    }
+//    printf("%.2f %.2f %.2f\n", max, min, sum / 5);
+//    return 0;
+//}
