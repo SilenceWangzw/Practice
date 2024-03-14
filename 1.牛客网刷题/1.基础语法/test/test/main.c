@@ -403,3 +403,175 @@
 //    printf("%.2f %.2f %.2f\n", max, min, sum / 5);
 //    return 0;
 //}
+
+
+
+
+//六、分支控制
+//BC50 -- 你是天才吗
+//int main() {
+//    int input = 0;
+//    scanf("%d", &input);
+//    if (input >= 140)
+//    {
+//        printf("Genius");
+//    }
+//}
+
+
+//BC51 -- 及格分数
+//int main() {
+//    int score = 0;
+//    while (scanf("%d", &score) != EOF)
+//    {
+//        if (score >= 60)
+//        {
+//            printf("Pass\n");
+//        }
+//        else {
+//            printf("Fail\n");
+//        }
+//    }
+//    return 0;
+//}
+
+
+//BC52 -- 判断整数奇偶性
+//int main() {
+//    int a = 0;
+//    while (scanf("%d", &a) != EOF)
+//    {
+//        if (a % 2 == 0)
+//        {
+//            printf("Even\n");
+//        }
+//        else {
+//            printf("Odd\n");
+//        }
+//    }
+//    return 0;
+//}
+
+
+//BC53 -- 判断是元音还是辅音
+//int main() {
+//    char a = 0;
+//    while ((scanf("%c", &a)) != EOF)
+//    {
+//        getchar();
+//        if ((a == 'A') || (a == 'E') || (a == 'I') || (a == 'O') || (a == 'U') || (a == 'a') || (a == 'e') || (a == 'i') || (a == 'o') || (a == 'u'))
+//        {
+//            printf("Vowel\n");
+//        }
+//        else {
+//            printf("Consonant\n");
+//        }
+//    }
+//    return 0;
+//}
+
+
+//BC54 -- 牛牛的判断题
+//int main() {
+//    int x = 0;
+//    int l = 0;
+//    int r = 0;
+//    scanf("%d%d%d", &x, &l, &r);
+//    if (x <= r && x >= l)
+//    {
+//        printf("true\n");
+//    }
+//    else {
+//        printf("false\n");
+//    }
+//    return 0;
+//}
+
+
+//BC55 -- 判断闰年
+//int main() {
+//    int n = 0;
+//    scanf("%d", &n);
+//    if ((n % 4 == 0 && n % 100 != 0) || (n % 400 == 0))
+//    {
+//        printf("yes\n");
+//    }
+//    else {
+//        printf("no\n");
+//    }
+//}
+
+
+//BC56 -- 判断字母大小写
+//int main() {
+//    char a = 0;
+//    scanf("%c", &a);
+//    if (((int)a >= 65 && (int)a <= 90) || ((int)a >= 97 && (int)a <= 122))
+//    {
+//        printf("YES\n");
+//    }
+//    else {
+//        printf("NO\n");
+//    }
+//    return 0;
+//}
+
+
+//BC57 -- 四季
+//int main() {
+//    int year = 0;
+//    int month = 0;
+//    scanf("%4d%2d", &year, &month);
+//    if (month >= 3 && month <= 5)
+//    {
+//        printf("spring\n");
+//    }
+//    else if (month >= 6 && month <= 8)
+//    {
+//        printf("summer\n");
+//    }
+//    else if (month >= 9 && month <= 11)
+//    {
+//        printf("autumn\n");
+//    }
+//    else if (month >= 12 && month <= 2)
+//    {
+//        printf("winter\n");
+//    }
+//    return 0;
+//}
+
+
+//BC58 -- 健康评估
+//int main() {
+//    double BMI = 0.0;
+//    double high = 0.0;
+//    double weight = 0.0;
+//    scanf("%lf%lf", &weight, &high);
+//    BMI = weight / (high * high);
+//    if (BMI >= 18.5 && BMI <= 23.9)
+//    {
+//        printf("Normal\n");
+//    }
+//    else {
+//        printf("Abnormal\n");
+//    }
+//
+//    return 0;
+//}
+
+
+//BC59 -- 小乐乐找最大数
+//int main() {
+//    int arr[4] = { 0 };
+//    int max = 0;
+//    scanf("%d%d%d%d", &arr[0], &arr[1], &arr[2], &arr[3]);
+//
+//    for (int i = 0; i < 4; i++)
+//    {
+//        if (arr[i] > max)
+//            max = arr[i];
+//    }
+//    printf("%d\n", max);
+//    return 0;
+//}
