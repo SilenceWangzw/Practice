@@ -575,3 +575,107 @@
 //    printf("%d\n", max);
 //    return 0;
 //}
+
+
+//BC60 -- 判断是不是字母
+//int main() {
+//    char a;
+//    while (scanf("%c", &a) != EOF) {
+//        getchar();
+//        if (((int)a >= 65 && (int)a <= 90) || ((int)a >= 97 && (int)a <= 122)) {
+//            printf("%c is an alphabet.\n", a);
+//        }
+//        else {
+//            printf("%c is not an alphabet.\n", a);
+//        }
+//    }
+//    return 0;
+//}
+
+
+//BC61 -- 牛牛的二三七除
+//int main() {
+//    int n = 0;
+//    int flag = 1;
+//    scanf("%d", &n);
+//    int arr[3] = { 2,3,7 };
+//    for (int i = 0; i < 3; i++)
+//    {
+//        if (n % arr[i] == 0)
+//        {
+//            printf("%d ", arr[i]);
+//            flag = 0;
+//        }
+//    }
+//    if (flag)
+//    {
+//        printf("n");
+//    }
+//    return 0;
+//}
+
+
+//BC62 -- 统计数据正负个数
+//int main() {
+//    int positive = 0;
+//    int negative = 0;
+//    signed int arr[10] = { 0 };
+//    for (int i = 0; i < 10; i++)
+//    {
+//        scanf("%d ", &arr[i]);
+//    }
+//
+//    for (int j = 0; j < 10; j++)
+//    {
+//        if (arr[j] > 0)
+//        {
+//            positive++;
+//        }
+//        else if (arr[j] < 0)
+//        {
+//            negative++;
+//        }
+//    }
+//    printf("positive:%d\n", positive);
+//    printf("negative:%d\n", negative);
+//    return 0;
+//}
+
+
+//BC63 -- 网购
+//int main() {
+//    double price = 0.0;
+//    int month = 0;
+//    int day = 0;
+//    int flag = 0;
+//
+//    scanf("%lf %d %d %d", &price, &month, &day, &flag);
+//    if (month == 11 && day == 11)
+//    {
+//        if (flag == 1)
+//        {
+//            price = (price * 0.7) - 50.0;
+//        }
+//        else {
+//            price = price * 0.7;
+//        }
+//    }
+//    if (month == 12 && day == 12)
+//    {
+//        if (flag == 1)
+//        {
+//            price = (price * 0.8) - 50.0;
+//        }
+//        else {
+//            price = price * 0.8;
+//        }
+//    }
+//
+//    if (price < 0)
+//    {
+//        price = 0;
+//    }
+//
+//    printf("%.2lf\n", price);
+//    return 0;
+//}
