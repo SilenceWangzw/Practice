@@ -679,3 +679,155 @@
 //    printf("%.2lf\n", price);
 //    return 0;
 //}
+
+
+//BC64 -- 牛牛的快递
+//int main() {
+//    float a;
+//    char b;
+//    int amount = 0;
+//    scanf("%f %c", &a, &b);
+//    if (a <= 1) {
+//        if (b == 'y') {
+//            amount = 25;
+//        }
+//        else {
+//            amount = 20;
+//        }
+//    }
+//    else {
+//        int c = a - 0.1 + 1; // 向上取整
+//        if (b == 'y') {
+//            amount = c + 20 + 4;
+//        }
+//        else {
+//            amount = c + 19;
+//        }
+//    }
+//    printf("%d", amount);
+//    return 0;
+//}
+
+
+
+
+//七、循环控制
+//BC78 -- KiKi说祝福语
+//int main() {
+//    int n = 0;
+//    scanf("%d", &n);
+//    for (int i = 0; i < n; i++)
+//    {
+//        printf("Happy new year!Good luck!\n");
+//    }
+//    return 0;
+//}
+
+
+//BC79 -- 小乐乐求和
+//int main() {
+//    int i = 0;
+//    int n = 0;
+//    long long sum = 0;
+//    scanf("%d", &n);
+//    for (i = 1; i <= n; i++)
+//    {
+//        sum = sum + i;
+//    }
+//    printf("%lld\n", sum);
+//    return 0;
+//}
+
+
+//BC80 -- 奇偶统计
+//int main() {
+//    int n = 0;
+//    scanf("%d", &n);
+//    int oushu = 0;
+//    int jishu = 0;
+//    for (int i = 1; i <= n; i++)
+//    {
+//        if (i % 2 == 0)
+//        {
+//            oushu++;
+//        }
+//        else {
+//            jishu++;
+//        }
+//    }
+//    printf("%d %d", jishu, oushu);
+//    return 0;
+//}
+
+
+//BC -- 81KiKi求质数个数
+//int main() {
+//    int i = 0;
+//    int sum = 0;
+//    int n = 0;
+//    for (i = 100; i <= 999; i++)
+//    {
+//        //用2~i-1之间的所有数去试除
+//        for (n = 2; n <= i - 1; n++)
+//        {
+//            if (i % n == 0)
+//            {
+//                break;
+//            }
+//        }
+//        if (i == n)
+//        {
+//            sum++;
+//        }
+//    }
+//    printf("%d\n", sum);
+//    return 0;
+//}
+
+
+//BC82 -- 乘法表
+//int main() {
+//    int i = 0;
+//    int j = 0;
+//    for (i = 1; i <= 9; i++)
+//    {
+//        for (j = 1; j <= i; j++)
+//        {
+//            printf("%d*%d=%2d ", j, i, i * j);
+//        }
+//        printf("\n");
+//    }
+//    return 0;
+//}
+
+
+//BC83 -- 牛牛学数列
+//int main() {
+//    int n = 0;
+//    scanf("%d", &n);
+//    int flag = 1;
+//    int i = 0;
+//    int sum = 0;
+//    for (i = 1; i <= n; i++)
+//    {
+//        sum = sum + (flag * i);
+//        flag = -1 * flag;
+//    }
+//    printf("%d\n", sum);
+//    return 0;
+//}
+
+
+//BC84 -- 牛牛学数列2
+//int main() {
+//    int n = 0;
+//    scanf("%d", &n);
+//    double sum = 0;
+//    int i = 0;
+//    for (i = 1; i <= n; i++)
+//    {
+//        sum = sum + (1.0 / i);
+//    }
+//    printf("%lf\n", sum);
+//    return 0;
+//}
