@@ -4,7 +4,7 @@
 //BC1 -- 实践出真知
 //int main()
 //{
-//	printf("Practice makess perfect!\n");
+//	printf("Practice makes perfect!\n");
 //	return 0;
 //}
 
@@ -65,5 +65,57 @@
 //		printf("%c\n", ch + 32);
 //		getchar();//读取\n
 //	}
+//	return 0;
+//}
+
+
+//BC7 -- 小飞机
+//int main()
+//{
+//	printf("     **     \n");
+//	printf("     **     \n");
+//	printf("************\n");
+//	printf("************\n");
+//	printf("    *  *    \n");
+//	printf("    *  *    \n");
+//	return 0;
+//}
+
+
+//BC8 -- 十六进制转十进制
+//int main()
+//{
+//	printf("%15d\n", 0xABCDEF);
+//	return 0;
+//}
+
+
+//BC9 -- printf函数的返回值
+//printf函数返回的是：打印在屏幕上的字符的个数
+//写法1
+//int main()
+//{
+//	int ret = printf("Hello world!");//这里如果加了\n，字符个数就改变了
+//	printf("\n%d\n", ret);
+//	return 0;
+//}
+
+//写法2
+//int main()
+//{
+//	printf("\n%d\n", printf("Hello world!"));
+//	return 0;
+//}
+
+
+//BC10 -- 学生基本信息输入输出
+//int main()
+//{
+//	long num = 0;
+//	float score1 = 0.0;
+//	float score2 = 0.0;
+//	float score3 = 0.0;
+//	scanf("%d;%f,%f,%f", &num, &score1, &score2, &score3);
+//	printf("The each subject of  No. %ld is %.2f, %.2f, %.2f", num, score1, score2, score3);
 //	return 0;
 //}
